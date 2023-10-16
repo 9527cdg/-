@@ -12,8 +12,8 @@ int main()
 	arr2[left] = arr1[left];
 	arr2[right] = arr1[right] ;
 	printf("%s\n", arr2);
-	Sleep(1000);//ĞİÃß0.5Ãë
-	system("cls");//Çå¿ÕÆÁÄ»
+	Sleep(1000);//ä¼‘çœ ä¸€ç§’
+	system("cls");//æ¸…ç©ºå±å¹•
 	left++;
 	right--;
 	}
