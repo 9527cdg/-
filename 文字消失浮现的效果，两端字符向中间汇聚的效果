@@ -1,6 +1,6 @@
 #include<stdio.h>
-#include<string.h>
-#include<windows.h>
+#include<string.h>//..........................Sleep的头文件
+#include<windows.h>//.........................system的头文件
 int main()
 {
 	char arr1[] = "65432123456";
@@ -12,8 +12,8 @@ int main()
 	arr2[left] = arr1[left];
 	arr2[right] = arr1[right] ;
 	printf("%s\n", arr2);
-	Sleep(1000);//休眠一秒
-	system("cls");//清空屏幕
+	Sleep(1000);//............................休眠一秒
+	system("cls");//..........................清空屏幕
 	left++;
 	right--;
 	}
